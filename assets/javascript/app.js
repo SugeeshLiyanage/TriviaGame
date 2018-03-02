@@ -113,8 +113,8 @@ function resetGame() {
 //declare Arrays
 
 var questionArray = ["What is the largest state in US ?","What is the smallest state in US ?","Which chess piece can only move diagonally?","Name the director of the Lord of the Rings trilogy ?","Name the world's biggest island ?","What famous actor became Governor of California in 2003 ?","Howmany years must a player be retired to be eligible for the Pro Football Hall of Fame ?","What male tennis player has won the most Grand Slam titles ?"];
-var answerArray = [["Alaska","Texas","California","Montana"],["Hawai","Connecticut","Delaware","Rhode Island"],["Knight","Bishop","King","Soldier"],["Hena Lewis","Tom Peterson","Peter Jackson","Graham Labroy"],["Madagaskar","Sri Lanka","Greenland","Australia"],["Ronald Reagan","Tom Hanks","Bruce Willies","Arnold Schwarzenegger"],["Five years","Four years","Three years","Two years"],["Sergi Bubka","Rafael Nadal","Pete Sampras","Roger Federer"]];
-var correctAnswers = ["A. Alaska","D. Rhode Island","B. Bishop","C. Peter Jackson","C. Greenland","D. Arnold Schwarzenegger","A. Five Years","D. Roger Federer"];
+var answerArray = [["Alaska","Texas","California","Montana"],["Hawai","Connecticut","Delaware","Rhode Island"],["Knight","Bishop","King","Soldier"],["Hena Lewis","Tom Peterson","Peter Jackson","Graham Labroy"],["Madagaskar","Sri Lanka","Greenland","Australia"],["Ronald Reagan","Tom Hanks","Bruce Willies","Arnold Schwarzenegger"],["One year","Four years","Five years","Two years"],["Sergi Bubka","Rafael Nadal","Pete Sampras","Roger Federer"]];
+var correctAnswers = ["A. Alaska","D. Rhode Island","B. Bishop","C. Peter Jackson","C. Greenland","D. Arnold Schwarzenegger",newFunction(),"D. Roger Federer"];
 var imageArray = ["<img class='center-block img-right' src='assets/images/alaska.png'>","<img class='center-block img-right' src='assets/images/rhodeIsland.png'>","<img class='center-block img-right' src='assets/images/bishop.jpg'>","<img class='center-block img-right' src='assets/images/peter.jpg'>","<img class='center-block img-right' src='assets/images/greenland.jpg'>","<img class='center-block img-right' src='assets/images/arnold.png'>","<img class='center-block img-right' src='assets/images/five.png'>","<img class='center-block img-right' src='assets/images/roger.jpg'>"];    
 
 //declare variables
@@ -128,5 +128,7 @@ var correctTally = 0;
 var incorrectTally = 0;
 var unansweredTally = 0;
 var clickSound = new Audio("assets/sound/button-click.mp3");
+
+
 
 
