@@ -4,7 +4,7 @@
 .jumbotron {
     box-sizing: border-box;
     height: 600px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0.02);
 }
 
 .main-button-container {
@@ -19,7 +19,7 @@
 }
 
 .answer:hover {
-    background: pink;    
+    background: rgb(103, 135, 221);    
 }
 
 .answer {
